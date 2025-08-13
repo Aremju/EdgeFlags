@@ -1,0 +1,16 @@
+{
+  "name": "@edgeflags/edge-service",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && echo \"(edge worker build later)\" > dist/placeholder.txt",
+    "dev": "echo \"run wrangler dev later\"",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json || true",
+    "test": "echo \"(add tests later)\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
