@@ -1,7 +1,9 @@
 # EdgeFlags
+
 EdgeFlags is an open-source MVP for Edge-based Feature Flags - built with Next.js, TypeScript, and an admin UI. Includes a control plane, SDK, and demo app, supporting real-time rollouts, A/B testing, and secure API keys.
 
 ## ✨ Features
+
 - ⚡ **Edge delivery** for instant flag evaluation
 - 🛠 **Admin UI** to create, edit, and manage flags
 - 📊 **A/B Testing** and gradual rollouts
@@ -10,12 +12,14 @@ EdgeFlags is an open-source MVP for Edge-based Feature Flags - built with Next.j
 - 📦 Lightweight SDK for integration into your apps
 
 ## 🏗 Tech Stack
+
 - **Frontend:** Next.js 15, Tailwind CSS, shadcn/ui
 - **Backend:** Next.js API Routes, Prisma, PostgreSQL
 - **Edge:** Cloudflare Workers / Vercel Edge Functions
 - **Auth:** JWT-based authentication
 
 ## 🚀 Getting Started
+
 ```bash
 # Clone the repo
 git clone https://github.com/yourusername/edgeflags
@@ -27,6 +31,7 @@ pnpm install
 # Start development server
 pnpm dev
 ```
+
 ## 📚 How It Works
 
 1. Admin UI lets you define and toggle feature flags.
