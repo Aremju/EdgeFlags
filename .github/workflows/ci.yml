@@ -17,4 +17,6 @@ jobs:
         run: pnpm run format:check
       - name: Run build for all services
         run: pnpm build
+      - name: run tests for all services
+        run: pnpm test
 

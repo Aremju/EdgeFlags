@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc -p tsconfig.json",
-    "test": "echo \"(add tests)\""
+    "test": "echo \"(add tests later)\""
   },
   "dependencies": {
     "react": "19.1.0",
