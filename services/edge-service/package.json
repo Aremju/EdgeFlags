@@ -6,7 +6,7 @@
   "scripts": {
     "build": "mkdir -p dist && echo \"(edge worker build later)\" > dist/placeholder.txt",
     "dev": "echo \"run wrangler dev later\"",
-    "lint": "eslint .",
+    "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' --no-error-on-unmatched-pattern",
     "typecheck": "tsc -p tsconfig.json || true",
     "test": "echo \"(add tests later)\""
   },
