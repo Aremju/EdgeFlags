@@ -1,0 +1,20 @@
+name: ci.yml
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04 [Beta]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js and project
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+      - run: pnpm install
+      - name: Run lint on all services
+        run: pnpm lint
+      - name: Run prettier check on all services
+        run: pnpm run format:check
+      - name: Run build for all services
+        run: pnpm build
+
